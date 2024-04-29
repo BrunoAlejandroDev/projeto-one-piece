@@ -1,0 +1,18 @@
+/** INICIO PERSONAGENS */
+
+.personagem {
+    display: none;
+    height: 100vh;
+}
+
+.personagem.selecionado {
+    display: block;
+}
+
+main .personagem .imagem {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/** FIM PERSONAGENS */
