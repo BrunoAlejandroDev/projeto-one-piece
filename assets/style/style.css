@@ -24,13 +24,13 @@ main::after {
     background: linear-gradient(-233deg, #000 40%, rgba(0, 0, 0, 0) 65%) no-repeat;
 }
 
-.personagem img {
+main .personagem .imagem {
     width: 100%;
     height: 100vh;
     object-fit: cover;
 }
 
-.personagem .content-character {
+.content-character {
     position: absolute;
     top: 0;
     left: 7.5rem;
@@ -45,7 +45,7 @@ main::after {
     z-index: 1;
 }
 
-.personagem .logo {
+.content-character .logo {
     background-image: url("../img/one-piece-logo.png");
     background-size: cover;
     height: 100px;
@@ -87,18 +87,20 @@ main::after {
     gap: 1rem;
 }
 
-.botao {
+.botoes .botao {
     border: none;
-    background: none;
+    background: #000;
     cursor: pointer;
     border-radius: 50%;
 }
 
-.botao img {
+.botoes .botao img {
     border-radius: 50%;
 }
 
-.botao.selecionado {
+.botoes .botao.selecionado {
     transform: scale(1.15);
+    box-shadow: 0 0 10px #D9D9D9;
 }
+
 /** FIM BOTOES */
