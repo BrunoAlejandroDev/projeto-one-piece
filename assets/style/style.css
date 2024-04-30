@@ -9,6 +9,18 @@
     display: block;
 }
 
+main::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    height: 100vh;
+    width: 70vw;
+
+    background: linear-gradient(-233deg, #000 40%, rgba(0, 0, 0, 0) 65%) no-repeat;
+}
+
 main .personagem .imagem {
     width: 100%;
     height: 100%;
@@ -26,6 +38,8 @@ main .personagem .imagem {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    z-index: 1;
 }
 
 .personagem .logo {
@@ -51,3 +65,7 @@ main .personagem .imagem {
     color: #FFF;
 }
 /** FIM PERSONAGENS */
+
+/** INICIO BOTOES */
+
+/** FIM BOTOES */
