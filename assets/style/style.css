@@ -15,4 +15,32 @@ main .personagem .imagem {
     object-fit: cover;
 }
 
+.personagem .content-character {
+    position: absolute;
+    top: 0;
+    left: 7.5rem;
+
+    min-height: 100vh;
+    max-width: 25rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-character .name-character {
+    margin: 1rem 0;
+    font-size: 3rem;
+    font-family: "Secular One", sans-serif;
+}
+
+.content-character .description-character {
+    font-family: "Rubik", sans-serif;
+    text-align: justify;
+    line-height: 1.3rem;
+}
+
+.content-character .name-character, .description-character {
+    color: #FFF;
+}
 /** FIM PERSONAGENS */
