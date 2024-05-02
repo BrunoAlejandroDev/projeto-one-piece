@@ -34,7 +34,7 @@
         flex-direction: row;
         align-items: flex-end;
         width: 100%;
-        padding: 1.5rem;
+        padding: 1rem 0;
     }
 
     .botoes .botao img {
@@ -43,12 +43,16 @@
 }
 
 @media screen and (max-width: 425px) {
+    main {
+        overflow: hidden;
+    }
+
     main .personagem .imagem {
-        height: 70vh;
+        height: 80vh;
     }
     
     .content-character {
-        top: -20%;
+        top: -15%;
     }
 
     .content-character .logo {
@@ -66,8 +70,8 @@
     }
 
     .botoes {
-        padding: 20px;
-        top: -10%;
+        padding: 1rem 1rem;
+        top: -5%;
     }
 
     .botoes .botao img {
