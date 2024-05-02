@@ -12,6 +12,11 @@
         passo 3 - verificar se já existe um personagem selecionado, se sim, devemos remover a seleção dele 
 */
 
+
+// *Biblioteca de animações
+AOS.init();
+// *Biblioteca de animações
+
 const botaoPersonagem = document.querySelectorAll(".botao");
 const personagens = document.querySelectorAll(".personagem");
 
